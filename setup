@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for i in {1..30}
+do
+  folder="day-0$i"
+  mkdir -p "$folder"
+  echo "# $folder" > "$folder/README.md"
+done
+
